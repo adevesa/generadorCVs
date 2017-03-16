@@ -1,0 +1,101 @@
+body {
+    background-color: #555555;
+}
+h1 {
+	font-family:verdana; 
+	text-align:center;
+	border: 5px solid grey;
+	padding: 30px;
+	margin: 30px;
+
+}
+
+#foto{
+	display: block;
+	border: 2px solid black;
+	position: relative;
+    left: 33%;
+    top: 50%;
+
+
+}
+
+#foto1{
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+
+}
+
+img.fotoTabla{
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	margin: 5px;
+}
+
+tr {
+	font-size: 35px;
+	text-align: center;
+}
+
+table, th, td{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #aba;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+table th {
+    color: white;
+    background-color: black;
+}
+
+#tituloTablas{
+	text-align: center;
+	font-family: verdana;
+	font-size: 30px; 
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#MotivoPecheo{
+	height:100px;
+
+}
+
+div.RegistroPoker{
+	text-align: center;
+	margin: 10px;
+	border: 3px solid grey ;
+}
