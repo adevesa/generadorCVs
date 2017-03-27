@@ -1,0 +1,83 @@
+html,body{
+/*	size: 21cm 29.7cm; 842px 595px
+    margin: 30mm 45mm 30mm 45mm;*/
+    width: 210mm; 
+    height: 297mm;
+
+        /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica ;
+
+}
+
+#apellidoYNombre{
+	text-align: center;
+	font-size: 36pt;
+	}
+
+.infoBasica{
+	font-size: 14pt;
+	padding-top: 25px;
+	
+	line-height: 35px;
+}
+
+#fotoDePerfil{
+	width: 4.3cm;
+	height: 5.6cm;
+	float: right;
+	border: 3px black solid;
+	border-radius: 5px;
+}
+
+.infoAcademica{
+	font-size: 14pt;
+	line-height: 35px;
+	padding-bottom: 5px;
+
+}
+
+#tituloSeccion{
+	color: #009966;
+	line-height: 35px;
+}
+
+#negrita{
+	font-weight: 600;
+}
+
+.experienciaLaboral{
+	font-size: 14pt;
+
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.ref{
+	margin-left: 50%;
+	font-size:12pt;
+}
+
+#Email{
+	margin-left: 12.5%;
+}
+
+#espacio{
+	margin-left: 12.5%;
+
+}
+
+.acercaDeMi{
+	font-size: 14pt;
+}
+
+.disponibilidadHoraria{
+	font-size: 14pt;
+
+}
